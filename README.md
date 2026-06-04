@@ -33,3 +33,8 @@ Those are valuable, but probably belong in a separate stack.
 - Yoni Appelbaum, *Stuck*
 - Paul Sabin, *Public Citizens*
 
+## Knowledge Library
+
+The repo now includes a `knowledge/` folder for historical, theoretical, and domain-specific material.
+
+Working rule: use all major abundance lenses lightly in every run, then go deep only where the diagnosis shows explanatory weight.

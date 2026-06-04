@@ -10,6 +10,8 @@ Instead of ending with a product plan for something to sell, the skill should pr
 
 The output should help a mixed coalition stitch together insight across domains. Housing people should learn from government IT failures. Permitting reformers should learn from procurement reform. Mobility advocates should recognize land-use and institutional bottlenecks. The skill should make the machinery visible across niches.
 
+The skill should be backed by a growing knowledge library of historical, theoretical, and domain-specific material. That library should inform diagnosis without turning the memo into a book report.
+
 ## Audience
 
 The v1 audience is colleagues in the Abundance Network, including:
@@ -72,6 +74,8 @@ The skill should force all three diagnostic lenses before choosing a dominant ex
 3. Cultural and ideological defaults: risk aversion, scarcity mindset, proceduralism, distrust of building, anti-state assumptions, anti-growth assumptions.
 
 The point is not to force false balance. The point is to investigate before deciding which layer matters most.
+
+The abundance book/framework lenses should behave the same way: all major lenses are lightly present in every run, then the memo goes deep only where the weighted causal model shows explanatory weight.
 
 ## Weighted Causal Model
 
@@ -167,4 +171,3 @@ If the mechanism is fundamentally broken, the skill should challenge the policy 
 - Should it produce a reusable markdown memo, a shorter advocacy one-pager, or both?
 - Should book-specific lenses be hardcoded or invoked as optional diagnostic references?
 - What should the first test problem or policy idea be?
-
