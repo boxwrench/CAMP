@@ -8,6 +8,8 @@ This should become a separate Abundance Network skill, not a direct fork of offi
 
 Every inherited component should be renamed so the system speaks in the language of civic diagnosis, implementation, evidence, and feedback rather than startups and products.
 
+The adaptation should be conservative. Most of GStack's operating loop still applies: diagnose, produce an artifact, review it, circulate or test it, gather feedback, and save learnings. The main change is the end goal: not a commercial product, but an evidence-aware civic action plan.
+
 ## Core Thesis
 
 Advocacy before understanding is motivated reasoning. The skill should first uncover how the system actually works: incentives, institutions, upstream and downstream dependencies, veto points, procedural bottlenecks, implementation realities, and feedback loops.

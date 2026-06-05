@@ -11,6 +11,8 @@ The follow-on subskills below are first-pass definitions. They need deeper logic
 
 For the full local GStack skill inventory and category map, see `gstack-ecosystem-map.md`.
 
+Adaptation principle: preserve GStack's logic wherever possible. The main change is not the workflow shape; it is the end goal. The Abundance stack should produce civic action plans and implementation feedback instead of commercial products and software deployment outcomes.
+
 ## Skill Family Overview
 
 ```text

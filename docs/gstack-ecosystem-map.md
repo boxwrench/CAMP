@@ -326,3 +326,24 @@ front-door diagnostic
 
 The Abundance version should preserve that operating pattern while replacing the product/software substrate with public systems, institutions, evidence, implementation, coalition action, and feedback loops.
 
+## Adaptation Principle
+
+Make fewer changes than the naming map might imply.
+
+The concept is largely the same:
+
+```text
+unclear idea
+  -> guided diagnosis
+  -> durable artifact
+  -> specialized reviews
+  -> real-world test
+  -> feedback
+  -> accumulated learning
+```
+
+The key difference is the end goal.
+
+GStack usually aims toward a commercial product, software artifact, or deployable change. The Abundance Network stack aims toward an evidence-aware civic action plan: something people can understand, promote, implement, test, and revise.
+
+Default rule: preserve GStack's logic unless the civic context specifically changes the success condition, evidence standard, artifact, or feedback loop.
