@@ -4,6 +4,10 @@ Draft workspace for adapting the GStack office-hours skill into an Abundance Net
 
 The current direction is not a startup/product memo. The goal is an Abundance Systems Memo: a structured way for colleagues across housing, government execution, mobility, institutions, land use, procurement, and related domains to diagnose a concrete problem or policy idea before advocating for it.
 
+This should become a separate Abundance Network skill, not a direct fork of office-hours. GStack is the template and framework: skill structure, guided questioning, artifact generation, saved outputs, and follow-on workflows.
+
+Every inherited component should be renamed so the system speaks in the language of civic diagnosis, implementation, evidence, and feedback rather than startups and products.
+
 ## Core Thesis
 
 Advocacy before understanding is motivated reasoning. The skill should first uncover how the system actually works: incentives, institutions, upstream and downstream dependencies, veto points, procedural bottlenecks, implementation realities, and feedback loops.
@@ -38,3 +42,5 @@ Those are valuable, but probably belong in a separate stack.
 The repo now includes a `knowledge/` folder for historical, theoretical, and domain-specific material.
 
 Working rule: use all major abundance lenses lightly in every run, then go deep only where the diagnosis shows explanatory weight.
+
+See also [component-naming-map.md](docs/component-naming-map.md).

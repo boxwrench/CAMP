@@ -12,6 +12,8 @@ The output should help a mixed coalition stitch together insight across domains.
 
 The skill should be backed by a growing knowledge library of historical, theoretical, and domain-specific material. That library should inform diagnosis without turning the memo into a book report.
 
+This should be a separate skill that uses GStack as the template and framework. It should not present itself as office-hours with a different theme. Every inherited component should be renamed around public systems, civic action, implementation, evidence, and feedback.
+
 Source architecture:
 
 - Canonical sources provide durable lenses: books, essays, talks, reports, and theoretical frameworks.
