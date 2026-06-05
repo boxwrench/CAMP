@@ -1,6 +1,8 @@
-# Abundance Network GStack
+# CAMP
 
-Draft workspace for adapting the GStack office-hours skill into an Abundance Network diagnostic and action-planning skill.
+CAMP is a draft Abundance Network skill stack for civic diagnosis and action planning.
+
+Working expansion: **Capacity, Abundance, Mechanisms, Policy**.
 
 The current direction is not a startup/product memo. The goal is an Abundance Systems Memo: a structured way for colleagues across housing, government execution, mobility, institutions, land use, procurement, and related domains to diagnose a concrete problem or policy idea before advocating for it.
 

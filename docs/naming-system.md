@@ -2,6 +2,14 @@
 
 Use simple skill names. Put intellectual lineage in descriptions, references, and memo sections, not in long command names.
 
+## Stack Name
+
+Canonical stack name: `CAMP`
+
+Working expansion: **Capacity, Abundance, Mechanisms, Policy**.
+
+CAMP should feel like a working base for civic diagnosis: people bring a problem, examine the machinery, learn from other domains, and leave with an action plan.
+
 ## Naming Principles
 
 - Prefer short verbs or plain nouns.

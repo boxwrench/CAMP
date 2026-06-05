@@ -1,6 +1,6 @@
 # Abundance Subskill Map
 
-This maps the broader GStack skill ecosystem to the proposed Abundance Network skill family.
+This maps the broader GStack skill ecosystem to the proposed CAMP skill family.
 
 The front-door skill is mostly resolved:
 

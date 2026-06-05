@@ -1,6 +1,6 @@
 # Logic Flow Map
 
-This maps the existing GStack office-hours logic to the proposed Abundance Network skill family.
+This maps the existing GStack office-hours logic to the proposed CAMP skill family.
 
 ## Naming Decision
 

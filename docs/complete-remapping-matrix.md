@@ -1,4 +1,4 @@
-# Complete GStack To Abundance Remapping Matrix
+# Complete GStack To CAMP Remapping Matrix
 
 This is the working disposition for every locally installed GStack skill observed on 2026-06-04.
 

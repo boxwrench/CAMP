@@ -1,6 +1,6 @@
 # Component Naming Map
 
-This project is a separate Abundance Network skill, not a fork of the existing GStack office-hours skill.
+CAMP is a separate Abundance Network skill stack, not a fork of the existing GStack office-hours skill.
 
 GStack is the template and framework: skill structure, guided questioning, artifacts, saved outputs, follow-on workflows, and repo conventions. The Abundance Network version should rename every inherited component so the language matches civic diagnosis, systems analysis, implementation, evidence, and feedback.
 
