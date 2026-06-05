@@ -138,6 +138,7 @@ What comes next:
 
 ## Project Map
 
+- [`INSTALLATION.md`](INSTALLATION.md): installation guide for Codex, Claude Code, Claude Cowork, Antigravity, and manual use
 - [`skills/abundance-diagnosis/SKILL.md`](skills/abundance-diagnosis/SKILL.md): first working skill scaffold
 - [`skills/abundance-diagnosis/references/memo-template.md`](skills/abundance-diagnosis/references/memo-template.md): Abundance Systems Memo template
 - [`skills/abundance-diagnosis/references/diagnostic-lenses.md`](skills/abundance-diagnosis/references/diagnostic-lenses.md): core diagnostic lenses
