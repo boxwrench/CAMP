@@ -44,3 +44,11 @@ The repo now includes a `knowledge/` folder for historical, theoretical, and dom
 Working rule: use all major abundance lenses lightly in every run, then go deep only where the diagnosis shows explanatory weight.
 
 See also [component-naming-map.md](docs/component-naming-map.md).
+
+## Current Skill Name
+
+Working front-door skill name: `abundance-diagnosis`.
+
+This is the Abundance Network equivalent of GStack office-hours: the guided session that turns an initial problem or policy idea into a structured memo.
+
+See [logic-flow-map.md](docs/logic-flow-map.md).

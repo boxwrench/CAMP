@@ -14,15 +14,18 @@ The skill should sound like it belongs to a coalition diagnosing and moving publ
 
 Current placeholder:
 
-- `abundance-systems-memo`
+- `abundance-diagnosis`
 
 Possible alternatives:
 
+- `abundance-systems-memo`
 - `abundance-diagnosis`
 - `abundance-action-memo`
 - `systems-action-memo`
 - `abundance-strategy`
 - `abundance-network-memo`
+
+Current recommendation: use `abundance-diagnosis` for the skill and `Abundance Systems Memo` for the artifact.
 
 ## Component Map
 
@@ -75,4 +78,3 @@ Possible follow-on skills or modes:
 - `Intervention Portfolio`
 - `Feedback and Drift Watchlist`
 - `Public Translation Table`
-
