@@ -52,3 +52,5 @@ Working front-door skill name: `abundance-diagnosis`.
 This is the Abundance Network equivalent of GStack office-hours: the guided session that turns an initial problem or policy idea into a structured memo.
 
 See [logic-flow-map.md](docs/logic-flow-map.md).
+
+The broader skill-family map is in [subskill-map.md](docs/subskill-map.md).

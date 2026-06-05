@@ -134,3 +134,4 @@ Use `Abundance Systems Memo` as the artifact name.
 
 Use `abundance-action-memo` only if the group wants the artifact and skill to sound more outward-facing. The risk is that "action" weakens the central norm that diagnosis must come first.
 
+For the broader follow-on skill family, see `subskill-map.md`.
