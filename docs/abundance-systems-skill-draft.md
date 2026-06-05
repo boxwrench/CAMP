@@ -12,6 +12,13 @@ The output should help a mixed coalition stitch together insight across domains.
 
 The skill should be backed by a growing knowledge library of historical, theoretical, and domain-specific material. That library should inform diagnosis without turning the memo into a book report.
 
+Source architecture:
+
+- Canonical sources provide durable lenses: books, essays, talks, reports, and theoretical frameworks.
+- Messy live material provides the actual diagnosis: agency docs, meeting minutes, bills, budgets, procurement documents, environmental review records, litigation, reporting, case studies, interviews, field notes, and implementation data.
+
+Canonical sources provide the map. Live diagnostic material checks the terrain. The memo should be explicit about which claims come from durable theory, which come from case-specific evidence, and which remain uncertain.
+
 ## Audience
 
 The v1 audience is colleagues in the Abundance Network, including:

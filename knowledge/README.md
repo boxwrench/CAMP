@@ -23,3 +23,8 @@ For example:
 - `mechanisms`: recurring system mechanics such as veto points, procurement failure, litigation risk, capture, fragmentation, or hollow compliance.
 - `prompts`: reusable questions that help expose hidden structure.
 
+## Source Architecture
+
+Canonical sources provide durable lenses. Messy live material provides the actual diagnosis.
+
+See `source-architecture.md`.
