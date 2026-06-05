@@ -1,70 +1,155 @@
 # CAMP
 
-Capacity, Abundance, Mechanisms, Policy. An Abundance skill stack for diagnosing civic systems before action.
+**Capacity, Abundance, Mechanisms, Policy.**
 
-Working expansion: **Capacity, Abundance, Mechanisms, Policy**.
+CAMP is an Abundance skill stack for diagnosing civic systems before action.
 
-The current direction is not a startup/product memo. The goal is an Abundance Systems Memo: a structured way for colleagues across housing, government execution, mobility, institutions, land use, procurement, and related domains to diagnose a concrete problem or policy idea before advocating for it.
+It helps advocates, organizers, staffers, policy researchers, and civic builders turn a public problem or policy instinct into a structured systems memo: what is broken, why it stays broken, who has power, what incentives matter, what evidence is missing, and what action is worth trying next.
 
-This should become a separate Abundance Network skill, not a direct fork of office-hours. It is inspired by GStack's template and framework: skill structure, guided questioning, artifact generation, saved outputs, and follow-on workflows.
+The core rule is simple:
 
-Every inherited component should be renamed so the system speaks in the language of civic diagnosis, implementation, evidence, and feedback rather than startups and products.
+> Diagnose before advocating.
 
-The adaptation should be conservative. Most of GStack's operating loop still applies: diagnose, produce an artifact, review it, circulate or test it, gather feedback, and save learnings. The main change is the end goal: not a commercial product, but an evidence-aware civic action plan.
+## Why CAMP Exists
 
-## Core Thesis
+Abundance politics often starts with a true instinct: build more housing, make government work, unblock infrastructure, restore state capacity, and make it easier for people to move toward opportunity.
 
-Advocacy before understanding is motivated reasoning. The skill should first uncover how the system actually works: incentives, institutions, upstream and downstream dependencies, veto points, procedural bottlenecks, implementation realities, and feedback loops.
+But a good instinct is not yet a working intervention.
 
-Only after that diagnosis should it produce an actionable plan.
+Public systems react. Agencies have incentives. Process has history. Veto points accumulate. Procurement rules shape what can be built. A reform that looks right on paper can mutate into delay, capture, hollow compliance, or symbolic progress.
 
-## Current V1 Scope
+CAMP is a workflow for slowing down just enough to understand the machinery before pushing on it.
 
-Use this skill when someone brings:
+## What It Produces
 
-- A specific local, state, or federal problem they want to move.
-- A policy idea they already believe may help.
+The primary artifact is an **Abundance Systems Memo**.
 
-Do not use this v1 for:
+A memo includes:
 
-- General abundance topic exploration.
-- Pattern-library entries from wins and failures in other domains.
+- Problem frame
+- Instinct audit
+- Full-stack root cause diagnosis
+- System map
+- Incentive analysis
+- Policy-as-organism test
+- Weighted causal model
+- Evidence ladder and uncertainty register
+- Intervention portfolio
+- Feedback and drift watchlist
+- Public translation table
 
-Those are valuable, but probably belong in a separate stack.
+The memo is designed to support action, not analysis for its own sake.
 
-## Working References
+## Core Workflow
+
+CAMP's first skill is `diagnose`.
+
+The canonical skill sequence is:
+
+```text
+diagnose
+  -> foresight
+  -> recode
+  -> verify
+  -> translate
+  -> test
+  -> learn
+  -> build
+```
+
+### `diagnose`
+
+Turn a concrete public problem or policy idea into an Abundance Systems Memo.
+
+### `foresight`
+
+Stress-test second-order effects, time horizons, institutional reaction, and strategic risk.
+
+### `recode`
+
+Review implementation mechanics: authority, procurement, staffing, budgets, operations, legal process, IT, and feedback loops.
+
+### `verify`
+
+Audit evidence quality, causal weights, uncertainty, public claims, and overclaim risk.
+
+### `translate`
+
+Turn internal findings into public claims without laundering uncertainty into slogans.
+
+### `test`
+
+Define observable feedback signals that reveal drift, capture, hollow progress, or real movement.
+
+### `learn`
+
+Capture reusable mechanisms, cases, anti-patterns, and cross-domain lessons.
+
+### `build`
+
+Prepare the memo or public translation for circulation, action, follow-up, and revision.
+
+## Two-Pass Diagnosis
+
+CAMP supports two levels of certainty.
+
+**Pass one: hypothesis memo**
+
+No live research is required. The memo is explicitly provisional. Causal weights are tentative, evidence gaps are named, and the goal is to form a useful starting model.
+
+**Pass two: evidence-backed revision**
+
+Live diagnostic material is gathered or ingested: agency documents, meeting minutes, statutes, budgets, procurement records, litigation, audits, local reporting, interviews, implementation data, and case studies.
+
+When ordinary search is not enough, CAMP can generate a deep-research prompt for the user to run externally and bring back.
+
+## Intellectual Lineage
+
+CAMP draws from abundance and state-capacity thinking, including:
 
 - Ezra Klein and Derek Thompson, *Abundance*
 - Jennifer Pahlka, *Recoding America*
 - Marc J. Dunkelman, *Why Nothing Works*
-- M. Nolan Gray, *Arbitrary Lines* / housing and land-use work
+- Housing and land-use reform work
 - Yoni Appelbaum, *Stuck*
 - Paul Sabin, *Public Citizens*
 
-## Knowledge Library
+These works provide durable lenses. They do not replace case-specific evidence.
 
-The repo now includes a `knowledge/` folder for historical, theoretical, and domain-specific material.
+## Repository Status
 
-Working rule: use all major abundance lenses lightly in every run, then go deep only where the diagnosis shows explanatory weight.
+This repository is early.
 
-See also [component-naming-map.md](docs/component-naming-map.md).
+What exists now:
 
-## Current Skill Name
+- A scaffolded `diagnose` skill at [`skills/abundance-diagnosis/SKILL.md`](skills/abundance-diagnosis/SKILL.md)
+- Memo template and diagnostic references
+- Deep-research handoff prompt
+- Knowledge-library structure
+- GStack-to-CAMP remapping docs
 
-Working front-door skill name: `diagnose`.
+What comes next:
 
-This is the Abundance Network equivalent of GStack office-hours: the guided session that turns an initial problem or policy idea into a structured memo.
+- Rename or alias `skills/abundance-diagnosis` to `diagnose`
+- Test the workflow on real policy issues
+- Codify the follow-on skills: `foresight`, `recode`, `verify`, `translate`, `test`, `learn`, and `build`
+- Add example Abundance Systems Memos
+- Build the pattern library from real cases
 
-See [logic-flow-map.md](docs/logic-flow-map.md).
+## Project Map
 
-The broader skill-family map is in [subskill-map.md](docs/subskill-map.md).
+- [`skills/abundance-diagnosis/SKILL.md`](skills/abundance-diagnosis/SKILL.md): first working skill scaffold
+- [`skills/abundance-diagnosis/references/memo-template.md`](skills/abundance-diagnosis/references/memo-template.md): Abundance Systems Memo template
+- [`skills/abundance-diagnosis/references/diagnostic-lenses.md`](skills/abundance-diagnosis/references/diagnostic-lenses.md): core diagnostic lenses
+- [`skills/abundance-diagnosis/references/deep-research-handoff.md`](skills/abundance-diagnosis/references/deep-research-handoff.md): prompt pattern for external deep research
+- [`docs/naming-system.md`](docs/naming-system.md): skill naming system
+- [`docs/complete-remapping-matrix.md`](docs/complete-remapping-matrix.md): GStack-to-CAMP remapping
+- [`knowledge/`](knowledge/): early knowledge-library structure
 
-The expanded map of the local GStack ecosystem is in [gstack-ecosystem-map.md](docs/gstack-ecosystem-map.md).
+## Attribution
 
-The initial skill scaffold currently lives at [skills/abundance-diagnosis/SKILL.md](skills/abundance-diagnosis/SKILL.md); it should be renamed or aliased to `diagnose` when packaging is settled.
+CAMP is inspired by [GStack](https://github.com/garrytan/gstack), Garry Tan's MIT-licensed agent skill workflow system.
 
-The complete per-skill remapping matrix is in [complete-remapping-matrix.md](docs/complete-remapping-matrix.md).
+CAMP is not official GStack and is not affiliated with or endorsed by Garry Tan or Y Combinator.
 
-The naming system and shortlist are in [naming-system.md](docs/naming-system.md).
-
-License and attribution notes are in [NOTICE.md](NOTICE.md).
+See [`NOTICE.md`](NOTICE.md) and [`LICENSE`](LICENSE).
