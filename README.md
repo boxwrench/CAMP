@@ -54,3 +54,5 @@ This is the Abundance Network equivalent of GStack office-hours: the guided sess
 See [logic-flow-map.md](docs/logic-flow-map.md).
 
 The broader skill-family map is in [subskill-map.md](docs/subskill-map.md).
+
+The expanded map of the local GStack ecosystem is in [gstack-ecosystem-map.md](docs/gstack-ecosystem-map.md).

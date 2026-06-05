@@ -9,6 +9,8 @@ The front-door skill is mostly resolved:
 
 The follow-on subskills below are first-pass definitions. They need deeper logic design before implementation.
 
+For the full local GStack skill inventory and category map, see `gstack-ecosystem-map.md`.
+
 ## Skill Family Overview
 
 ```text
@@ -320,4 +322,3 @@ Status:
 - How knowledge library entries are indexed and retrieved.
 - How live diagnostic sources are cited.
 - Whether public circulation should integrate with email/docs/slides later.
-
