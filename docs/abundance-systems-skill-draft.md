@@ -111,6 +111,26 @@ The skill should use an evidence ladder:
 
 Uncertainty is allowed. Fake certainty is not.
 
+## Two-Pass Workflow
+
+The skill should support a two-pass workflow.
+
+Pass 1: hypothesis memo.
+
+- No live research is required yet.
+- The memo is explicitly labeled provisional.
+- Causal weights are tentative ranges, not conclusions.
+- The goal is to expose the likely system structure, name what must be investigated, and give the group a useful starting model.
+
+Pass 2: evidence-backed revision.
+
+- The skill gathers or ingests live diagnostic material.
+- Causal weights can be revised, narrowed, or rejected.
+- The action portfolio is updated based on what the evidence shows.
+- Any remaining uncertainty is kept visible in the uncertainty register.
+
+The first pass creates momentum. The second pass prevents the first story from becoming unearned certainty.
+
 ## Feedback Loops
 
 Tight feedback is a core principle. The memo should define feedback signals that prevent drift and hollow progress.

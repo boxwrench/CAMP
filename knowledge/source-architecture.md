@@ -38,3 +38,8 @@ Canonical sources provide the map. Live diagnostic material checks the terrain.
 
 The memo should be explicit when a claim comes from a durable lens, when it comes from case-specific evidence, and when it is still an uncertainty.
 
+## Two-Pass Use
+
+Pass 1 may produce a provisional hypothesis memo without live diagnostic research.
+
+Pass 2 should revise that memo using live diagnostic material. This is when causal weights become more defensible, failure modes become more concrete, and the action portfolio can move from plausible to evidence-backed.
