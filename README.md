@@ -1,6 +1,6 @@
 # CAMP
 
-CAMP is a draft Abundance Network skill stack for civic diagnosis and action planning.
+Capacity, Abundance, Mechanisms, Policy. An Abundance skill stack for diagnosing civic systems before action.
 
 Working expansion: **Capacity, Abundance, Mechanisms, Policy**.
 
