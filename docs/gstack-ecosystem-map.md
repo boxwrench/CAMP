@@ -8,6 +8,8 @@ office-hours -> design doc -> plan reviews -> ship / QA / review
 
 That is only part of GStack. The local installation includes a broader skill ecosystem. The Abundance Network version should not copy every skill one-for-one, but it should understand the full pattern.
 
+For a per-skill disposition covering every installed GStack skill, see `complete-remapping-matrix.md`.
+
 ## Installed GStack Skill Inventory
 
 Local skill folders observed on 2026-06-04:
