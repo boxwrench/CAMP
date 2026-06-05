@@ -70,6 +70,7 @@ Ask one question at a time. Continue until there is enough context to draft the 
    - Separate canonical-source reasoning from case-specific evidence.
    - Mark missing sources and uncertainty explicitly.
    - If action must proceed under uncertainty, define what to watch.
+   - If the missing evidence requires deeper research than normal browsing, offer a deep-research handoff prompt the user can run externally and bring back.
 
 8. **Intervention Portfolio**
    - Choose one structural bet.
@@ -91,6 +92,7 @@ Load these only when needed:
 
 - `references/memo-template.md`: use when drafting or saving the memo.
 - `references/diagnostic-lenses.md`: use when applying canonical abundance lenses.
+- `references/deep-research-handoff.md`: use when the memo needs a stronger external research pass.
 - `references/gstack-parallels.md`: use when mapping the skill to GStack behavior or designing follow-on subskills.
 
 ## Follow-On Reviews
@@ -112,3 +114,4 @@ A useful run ends with:
 - An actionable intervention portfolio.
 - Feedback signals that can reveal drift or hollow progress.
 - A public translation table tied to evidence.
+- A deep-research handoff prompt when the evidence gaps exceed what a quick search can responsibly cover.

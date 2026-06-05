@@ -98,9 +98,18 @@ abundance-diagnosis
 
 Use `publish-circulate-test` only after the memo is good enough to show someone.
 
+At the evidence-ladder stage, the process may branch to a deep-research handoff:
+
+```text
+evidence gap identified
+  -> generate deep-research prompt
+  -> user runs external deep research
+  -> user brings result back
+  -> pass-two evidence-backed revision
+```
+
 ## Minimal Implementation Rule
 
 Do not scaffold all remapped skills before testing.
 
 For the first policy issue, use the scaffolded `abundance-diagnosis` skill and simulate the follow-on reviews from the mapping docs. Then codify only the subskills whose absence creates real friction.
-

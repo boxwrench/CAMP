@@ -43,3 +43,9 @@ The memo should be explicit when a claim comes from a durable lens, when it come
 Pass 1 may produce a provisional hypothesis memo without live diagnostic research.
 
 Pass 2 should revise that memo using live diagnostic material. This is when causal weights become more defensible, failure modes become more concrete, and the action portfolio can move from plausible to evidence-backed.
+
+## Deep Research Handoff
+
+When ordinary browsing is insufficient, the skill should generate a deep-research prompt for the user to run externally. The returned research should be treated as pass-two live diagnostic material, not as unquestioned truth.
+
+Use this when missing evidence is likely buried in statutes, budgets, procurement records, meeting minutes, audits, agency documents, litigation, local reporting, or historical accounts.

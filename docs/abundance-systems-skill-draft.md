@@ -126,6 +126,10 @@ The skill should use an evidence ladder:
 
 Uncertainty is allowed. Fake certainty is not.
 
+If the evidence gaps are too deep for ordinary browsing, the skill should offer a deep-research handoff. It should explain what would be useful to research, generate a standalone prompt the user can run in a deep-research tool, and ask the user to bring the result back for pass-two revision.
+
+This is especially useful when the diagnosis depends on legal, budgetary, procurement, administrative, or historical details buried in bills, meeting minutes, audits, contracts, litigation, or agency documents.
+
 ## Two-Pass Workflow
 
 The skill should support a two-pass workflow.
@@ -140,6 +144,7 @@ Pass 1: hypothesis memo.
 Pass 2: evidence-backed revision.
 
 - The skill gathers or ingests live diagnostic material.
+- The skill may ingest a user-run deep-research result as live diagnostic material.
 - Causal weights can be revised, narrowed, or rejected.
 - The action portfolio is updated based on what the evidence shows.
 - Any remaining uncertainty is kept visible in the uncertainty register.
