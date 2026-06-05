@@ -89,6 +89,16 @@ Capture reusable mechanisms, cases, anti-patterns, and cross-domain lessons.
 
 Prepare the memo or public translation for circulation, action, follow-up, and revision.
 
+## Installation
+
+CAMP is currently installed by copying the skill folder into your agent's skills directory as `diagnose`.
+
+```text
+skills/abundance-diagnosis -> diagnose
+```
+
+Codex, Claude Code, Claude Cowork, and Google Antigravity use slightly different install locations. See [`INSTALLATION.md`](INSTALLATION.md) for exact commands and a smoke test.
+
 ## Two-Pass Diagnosis
 
 CAMP supports two levels of certainty.
