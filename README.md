@@ -4,7 +4,7 @@ Draft workspace for adapting the GStack office-hours skill into an Abundance Net
 
 The current direction is not a startup/product memo. The goal is an Abundance Systems Memo: a structured way for colleagues across housing, government execution, mobility, institutions, land use, procurement, and related domains to diagnose a concrete problem or policy idea before advocating for it.
 
-This should become a separate Abundance Network skill, not a direct fork of office-hours. GStack is the template and framework: skill structure, guided questioning, artifact generation, saved outputs, and follow-on workflows.
+This should become a separate Abundance Network skill, not a direct fork of office-hours. It is inspired by GStack's template and framework: skill structure, guided questioning, artifact generation, saved outputs, and follow-on workflows.
 
 Every inherited component should be renamed so the system speaks in the language of civic diagnosis, implementation, evidence, and feedback rather than startups and products.
 
@@ -62,3 +62,7 @@ The expanded map of the local GStack ecosystem is in [gstack-ecosystem-map.md](d
 The initial skill scaffold lives at [skills/abundance-diagnosis/SKILL.md](skills/abundance-diagnosis/SKILL.md).
 
 The complete per-skill remapping matrix is in [complete-remapping-matrix.md](docs/complete-remapping-matrix.md).
+
+The naming system and shortlist are in [naming-system.md](docs/naming-system.md).
+
+License and attribution notes are in [NOTICE.md](NOTICE.md).

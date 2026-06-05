@@ -10,6 +10,8 @@ Do not preserve startup/product language unless the concept truly applies.
 
 The skill should sound like it belongs to a coalition diagnosing and moving public systems, not a founder preparing to sell a product.
 
+Prefer short names. Put intellectual lineage in the skill descriptions and knowledge library rather than in long command names.
+
 ## Working Skill Name
 
 Current placeholder:
@@ -26,6 +28,17 @@ Possible alternatives:
 - `abundance-network-memo`
 
 Current recommendation: use `abundance-diagnosis` for the skill and `Abundance Systems Memo` for the artifact.
+
+If packaged as a full Abundance stack, prefer shorter names or aliases:
+
+- `abundance-diagnose`
+- `abundance-foresight`
+- `abundance-recode`
+- `abundance-translate`
+- `abundance-verify`
+- `abundance-test`
+- `abundance-learn`
+- `abundance-build`
 
 ## Component Map
 
