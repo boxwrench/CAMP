@@ -54,6 +54,19 @@ The primary output is an Abundance Systems Memo with two layers:
 
 The internal layer must come first. The public layer should not be produced until the diagnosis has been run.
 
+The public-facing layer should be a translation table, not a detached advocacy one-pager.
+
+Each public claim must trace back to the internal diagnosis:
+
+- Internal finding
+- Public claim
+- Evidence supporting the claim
+- Audience most likely to respond
+- Risk of overclaiming
+- Safer wording if confidence is low
+
+The goal is forceful communication without laundering uncertainty into slogans.
+
 ## Governing Rule
 
 Do not advocate before understanding.
@@ -189,7 +202,7 @@ If the mechanism is fundamentally broken, the skill should challenge the policy 
 11. Action portfolio
 12. Feedback loops and drift signals
 13. Internal strategy memo
-14. Public-facing message
+14. Public translation table
 
 ## Open Questions
 
