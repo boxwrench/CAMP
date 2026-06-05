@@ -142,6 +142,7 @@ What comes next:
 - [`skills/abundance-diagnosis/references/memo-template.md`](skills/abundance-diagnosis/references/memo-template.md): Abundance Systems Memo template
 - [`skills/abundance-diagnosis/references/diagnostic-lenses.md`](skills/abundance-diagnosis/references/diagnostic-lenses.md): core diagnostic lenses
 - [`skills/abundance-diagnosis/references/deep-research-handoff.md`](skills/abundance-diagnosis/references/deep-research-handoff.md): prompt pattern for external deep research
+- [`docs/using-camp-with-agents.md`](docs/using-camp-with-agents.md): installation notes for Codex, Claude Code, Claude Cowork, and Antigravity
 - [`docs/naming-system.md`](docs/naming-system.md): skill naming system
 - [`docs/complete-remapping-matrix.md`](docs/complete-remapping-matrix.md): GStack-to-CAMP remapping
 - [`knowledge/`](knowledge/): early knowledge-library structure
