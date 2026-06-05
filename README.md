@@ -49,7 +49,7 @@ See also [component-naming-map.md](docs/component-naming-map.md).
 
 ## Current Skill Name
 
-Working front-door skill name: `abundance-diagnosis`.
+Working front-door skill name: `diagnose`.
 
 This is the Abundance Network equivalent of GStack office-hours: the guided session that turns an initial problem or policy idea into a structured memo.
 
@@ -59,7 +59,7 @@ The broader skill-family map is in [subskill-map.md](docs/subskill-map.md).
 
 The expanded map of the local GStack ecosystem is in [gstack-ecosystem-map.md](docs/gstack-ecosystem-map.md).
 
-The initial skill scaffold lives at [skills/abundance-diagnosis/SKILL.md](skills/abundance-diagnosis/SKILL.md).
+The initial skill scaffold currently lives at [skills/abundance-diagnosis/SKILL.md](skills/abundance-diagnosis/SKILL.md); it should be renamed or aliased to `diagnose` when packaging is settled.
 
 The complete per-skill remapping matrix is in [complete-remapping-matrix.md](docs/complete-remapping-matrix.md).
 

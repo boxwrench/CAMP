@@ -74,26 +74,26 @@ The goal is conservative adaptation. Preserve GStack's operating loop unless the
 
 Build or specify these first:
 
-1. `abundance-diagnosis`
-2. `strategic-foresight-review`
-3. `implementation-mechanics-review`
-4. `public-translation-review`
-5. `evidence-review`
-6. `feedback-loop-check`
-7. `pattern-library-entry`
+1. `diagnose`
+2. `foresight`
+3. `recode`
+4. `translate`
+5. `verify`
+6. `test`
+7. `learn`
 
 ## V1 Test Path
 
 The first end-to-end policy test should exercise this path:
 
 ```text
-abundance-diagnosis
-  -> strategic-foresight-review
-  -> implementation-mechanics-review
-  -> evidence-review
-  -> public-translation-review
-  -> feedback-loop-check
-  -> pattern-library-entry
+diagnose
+  -> foresight
+  -> recode
+  -> verify
+  -> translate
+  -> test
+  -> learn
 ```
 
 Use `publish-circulate-test` only after the memo is good enough to show someone.

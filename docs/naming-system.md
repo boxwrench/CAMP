@@ -10,11 +10,11 @@ Use simple skill names. Put intellectual lineage in descriptions, references, an
 - Avoid startup/product language unless the concept truly applies.
 - Acknowledge intellectual underpinnings in the skill body and knowledge library rather than overloading the name.
 
-## Recommended Core Names
+## Canonical Core Names
 
 | Function | Short Name | Notes |
 | --- | --- | --- |
-| Front-door systems diagnosis | `diagnose` or `abundance-diagnosis` | `abundance-diagnosis` is clearer for discovery; `diagnose` is cleaner if namespaced inside an Abundance stack. |
+| Front-door systems diagnosis | `diagnose` | Diagnose before advocacy. Equivalent to GStack office-hours. |
 | Main artifact | `systems-memo` | Shorter handle for the Abundance Systems Memo. |
 | Strategic foresight review | `foresight` | Time horizons, system reaction, second-order effects. |
 | Implementation mechanics review | `recode` | Best when the review is about execution, state capacity, procurement, IT, and operational reality. |
@@ -22,7 +22,7 @@ Use simple skill names. Put intellectual lineage in descriptions, references, an
 | Evidence review | `verify` | Source support, causal confidence, uncertainty, overclaim warnings. |
 | Feedback-loop check | `test` | Observable signals, drift, hollow progress, learning experiment. |
 | Pattern-library entry | `learn` | Cross-domain lessons, mechanisms, cases, transfer notes. |
-| Circulation workflow | `build` or `circulate` | `build` is normatively strong; `circulate` is more precise for memo release. |
+| Circulation workflow | `build` | Normatively strong: the point is to make the system produce the desired public outcome. |
 
 ## Namespaced Form
 
@@ -39,7 +39,7 @@ If these become standalone skills in a shared skill folder, use namespaced names
 
 ## Plain Command Form
 
-If they live inside a dedicated Abundance stack where context is obvious:
+These are the canonical names inside a dedicated Abundance stack:
 
 - `diagnose`
 - `foresight`
@@ -63,11 +63,17 @@ The names should stay simple, but the skill descriptions should acknowledge the 
 
 ## Current Recommendation
 
-Use `abundance-diagnosis` for the first scaffolded skill until the stack packaging is settled.
+Use the plain command form as the canonical vocabulary:
 
-If the project becomes a full Abundance skill pack, rename or alias it to:
+```text
+diagnose
+foresight
+recode
+translate
+verify
+test
+learn
+build
+```
 
-- front door: `abundance-diagnose`
-- implementation review: `abundance-recode`
-- circulation/action: `abundance-build`
-
+Keep `abundance-*` names available for distribution contexts where short names would collide with other skills.

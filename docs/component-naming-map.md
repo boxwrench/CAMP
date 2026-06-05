@@ -27,9 +27,9 @@ Possible alternatives:
 - `abundance-strategy`
 - `abundance-network-memo`
 
-Current recommendation: use `abundance-diagnosis` for the skill and `Abundance Systems Memo` for the artifact.
+Current recommendation: use `diagnose` for the skill and `Abundance Systems Memo` / `systems-memo` for the artifact.
 
-If packaged as a full Abundance stack, prefer shorter names or aliases:
+If packaged in a shared skill namespace, use namespaced forms:
 
 - `abundance-diagnose`
 - `abundance-foresight`
@@ -39,6 +39,17 @@ If packaged as a full Abundance stack, prefer shorter names or aliases:
 - `abundance-test`
 - `abundance-learn`
 - `abundance-build`
+
+Inside a dedicated Abundance stack, use:
+
+- `diagnose`
+- `foresight`
+- `recode`
+- `translate`
+- `verify`
+- `test`
+- `learn`
+- `build`
 
 ## Component Map
 
