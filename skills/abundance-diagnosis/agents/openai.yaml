@@ -1,0 +1,3 @@
+display_name: Abundance Diagnosis
+short_description: Diagnose civic systems before advocacy.
+default_prompt: Use abundance-diagnosis to diagnose a civic problem or policy idea before recommending an action plan.

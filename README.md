@@ -58,3 +58,5 @@ See [logic-flow-map.md](docs/logic-flow-map.md).
 The broader skill-family map is in [subskill-map.md](docs/subskill-map.md).
 
 The expanded map of the local GStack ecosystem is in [gstack-ecosystem-map.md](docs/gstack-ecosystem-map.md).
+
+The initial skill scaffold lives at [skills/abundance-diagnosis/SKILL.md](skills/abundance-diagnosis/SKILL.md).
