@@ -18,6 +18,8 @@ Do not advocate before understanding.
 
 Treat pro-abundance instincts as hypotheses, not conclusions. Diagnose the system first, then recommend action.
 
+In the **What / How / Why** spine (see `knowledge/lenses.md`), this rule is the discipline of nailing the *What* (a concrete, observable goal) and stress-testing the *How* (the institutional machinery, where ideas die) before mobilizing the *Why*. Movements fail by reasoning backwards.
+
 ## Purpose
 
 Guide an Abundance Network colleague from a raw public problem or policy idea to an Abundance Systems Memo. Preserve the GStack operating loop: guided diagnosis, durable artifact, specialized review, real-world test, feedback, and accumulated learning. Change the destination from commercial product to civic action plan.
@@ -49,6 +51,7 @@ Ask one question at a time. Continue until there is enough context to draft the 
    - Ask what the user already believes.
    - Ask why they believe it.
    - Ask what would make them change their mind.
+   - Place the instinct on the **What / How / Why** spine (see `knowledge/lenses.md`). Is it a concrete goal (*What*), a method (*How*), or a motivation (*Why*)? Make sure the *What* is a specific, observable outcome before debating the *Why*. The classic failure is leading with moral *Why* while the *What* is a slogan and the *How* is missing — name it when you see it.
 
 3. **Full-Stack Diagnosis**
    - Test institutional mechanics: agencies, process, procurement, budgets, staffing, law, veto points, authority.
@@ -84,7 +87,7 @@ Ask one question at a time. Continue until there is enough context to draft the 
 
 10. **Save And Route**
     - Save the memo when requested or when the session reaches a complete draft.
-    - Recommend follow-on reviews: strategic foresight, implementation mechanics, public translation, evidence review, or feedback-loop check.
+    - Identify the memo's single weakest section, then recommend the one follow-on skill that addresses it (see Routing). Do not list all of them; route to the strongest next move.
 
 ## References
 
@@ -95,15 +98,29 @@ Load these only when needed:
 - `references/deep-research-handoff.md`: use when the memo needs a stronger external research pass.
 - `references/gstack-parallels.md`: use when mapping the skill to GStack behavior or designing follow-on subskills.
 
-## Follow-On Reviews
+## Routing
 
-Recommend follow-on reviews based on the memo's weak point:
+CAMP is a stack of independent skills that complement each other. `diagnose` is the front door, but any skill can be the entry point and each one hands off to the next. The memo saved in `memos/` is the shared artifact; downstream skills read it. See `docs/routing-map.md` for the full map.
 
-- `strategic-foresight-review`: second-order effects, long time horizons, system reaction.
-- `implementation-mechanics-review`: authority, staffing, procurement, operations, legal process, budgets.
-- `public-translation-review`: audience-specific claims, persuasion, overclaim risk.
-- `evidence-review`: source support, confidence scores, missing evidence.
-- `feedback-loop-check`: drift, hollow progress, learning experiments, observable signals.
+### Route on the weakest section
+
+When the memo is drafted, find its single weakest section and recommend the matching skill. Route to one, not a menu.
+
+| If the memo's weak point is… | Recommend |
+| --- | --- |
+| Thin on second-order effects, time horizons, or system reaction | `foresight` |
+| Hand-wavy on authority, procurement, staffing, budgets, or who-does-what Monday morning | `recode` |
+| Causal weights asserted without sources, or confidence that outruns evidence | `verify` |
+| Public claims that risk overclaiming or need audience-specific framing | `translate` |
+| No observable signal that would reveal drift, capture, or hollow progress | `test` |
+| A reusable mechanism or case worth capturing across domains | `learn` |
+| Approved and ready to reach people for a first real-world test | `build` |
+
+If the user wants a stronger evidence base before any of these, route to `verify` or offer the deep-research handoff.
+
+### Proactive routing during the session
+
+If the conversation repeatedly circles one domain before the memo is done — for example, the user keeps surfacing procurement and staffing detail — you may suggest the matching skill **once**: "This is becoming a `recode` question — want to finish the memo first, or jump there now?" Then return to diagnosis. Do not repeat the suggestion, and do not stack multiple suggestions in one session. The goal is a guided handoff, not a nag.
 
 ## Completion Standard
 

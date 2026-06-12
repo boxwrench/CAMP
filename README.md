@@ -42,20 +42,22 @@ The memo is designed to support action, not analysis for its own sake.
 
 ## Core Workflow
 
-CAMP's first skill is `diagnose`.
+CAMP is a stack of **independent, complementary skills**. If you are not sure where to start, run `camp` — it reads your situation and any existing memo, then routes you to the right skill, so you never have to memorize names. Otherwise `diagnose` is the natural front door, but any skill can be the entry point for the task you have. They share one artifact — the Abundance Systems Memo in `memos/` — so each skill reconstructs context from the memo instead of requiring a fixed order. Whichever skill you run recommends the next one based on what it found.
 
-The canonical skill sequence is:
+The intended flow:
 
 ```text
-diagnose
-  -> foresight
-  -> recode
-  -> verify
-  -> translate
-  -> test
-  -> learn
-  -> build
+diagnose       front-door systems diagnosis -> Abundance Systems Memo
+  -> foresight second-order effects, time horizons, system reaction
+  -> recode    implementation mechanics: authority, procurement, staffing, ops
+  -> verify    evidence: source support, confidence, overclaim risk
+  -> translate internal findings -> public claims, without overclaiming
+  -> test      observable feedback signals that reveal drift
+  -> learn     reusable cross-domain mechanisms and cases
+  -> build     circulate the memo and define the first real-world test
 ```
+
+All eight worker skills plus the `camp` router are built. The follow-on skills are scaffolded with full workflows but have not yet been exercised on real policy issues — treat them as built but unproven. Routing between skills is defined in [`docs/routing-map.md`](docs/routing-map.md): each skill routes off the memo's weakest section rather than offering a flat menu.
 
 ### `diagnose`
 
@@ -117,6 +119,7 @@ When ordinary search is not enough, CAMP can generate a deep-research prompt for
 
 CAMP draws from abundance and state-capacity thinking, including:
 
+- Zack Rosen and Misha Chellam, *Modern Power* — the What/How/Why framework and grassroots power analysis that form CAMP's organizing spine
 - Ezra Klein and Derek Thompson, *Abundance*
 - Jennifer Pahlka, *Recoding America*
 - Marc J. Dunkelman, *Why Nothing Works*
@@ -132,7 +135,10 @@ This repository is early.
 
 What exists now:
 
-- A scaffolded `diagnose` skill at [`skills/abundance-diagnosis/SKILL.md`](skills/abundance-diagnosis/SKILL.md)
+- A `camp` router ([`skills/camp`](skills/camp/SKILL.md)) that triages any situation to the right skill
+- Eight worker skills: `diagnose`, `foresight`, `recode`, `verify`, `translate`, `test`, `learn`, `build`
+- Conditional routing between skills ([`docs/routing-map.md`](docs/routing-map.md))
+- The What/How/Why spine from *Modern Power* woven through the skills ([`knowledge/lenses.md`](knowledge/lenses.md))
 - Memo template and diagnostic references
 - Deep-research handoff prompt
 - Knowledge-library structure
@@ -140,16 +146,23 @@ What exists now:
 
 What comes next:
 
-- Rename or alias `skills/abundance-diagnosis` to `diagnose`
-- Test the workflow on real policy issues
-- Codify the follow-on skills: `foresight`, `recode`, `verify`, `translate`, `test`, `learn`, and `build`
+- Test the workflow on real policy issues and harden the scaffolded follow-on skills
 - Add example Abundance Systems Memos
-- Build the pattern library from real cases
+- Build the pattern library from real cases via the `learn` skill
 
 ## Project Map
 
 - [`INSTALLATION.md`](INSTALLATION.md): installation guide for Codex, Claude Code, Claude Cowork, Antigravity, and manual use
-- [`skills/abundance-diagnosis/SKILL.md`](skills/abundance-diagnosis/SKILL.md): first working skill scaffold
+- [`skills/camp/SKILL.md`](skills/camp/SKILL.md): router — triages any situation to the right skill
+- [`skills/abundance-diagnosis/SKILL.md`](skills/abundance-diagnosis/SKILL.md): front-door diagnosis skill
+- [`skills/abundance-foresight/SKILL.md`](skills/abundance-foresight/SKILL.md): strategic foresight review
+- [`skills/abundance-recode/SKILL.md`](skills/abundance-recode/SKILL.md): implementation mechanics review
+- [`skills/abundance-verify/SKILL.md`](skills/abundance-verify/SKILL.md): evidence review
+- [`skills/abundance-translate/SKILL.md`](skills/abundance-translate/SKILL.md): public translation review
+- [`skills/abundance-test/SKILL.md`](skills/abundance-test/SKILL.md): feedback-loop check
+- [`skills/abundance-learn/SKILL.md`](skills/abundance-learn/SKILL.md): pattern-library entry
+- [`skills/abundance-build/SKILL.md`](skills/abundance-build/SKILL.md): circulation and first real-world test
+- [`docs/routing-map.md`](docs/routing-map.md): how skills recommend each other
 - [`skills/abundance-diagnosis/references/memo-template.md`](skills/abundance-diagnosis/references/memo-template.md): Abundance Systems Memo template
 - [`skills/abundance-diagnosis/references/diagnostic-lenses.md`](skills/abundance-diagnosis/references/diagnostic-lenses.md): core diagnostic lenses
 - [`skills/abundance-diagnosis/references/deep-research-handoff.md`](skills/abundance-diagnosis/references/deep-research-handoff.md): prompt pattern for external deep research
