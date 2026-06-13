@@ -57,7 +57,7 @@ diagnose       front-door systems diagnosis -> Abundance Systems Memo
   -> build     circulate the memo and define the first real-world test
 ```
 
-All eight worker skills plus the `camp` router are built. The follow-on skills are scaffolded with full workflows but have not yet been exercised on real policy issues — treat them as built but unproven. Routing between skills is defined in [`docs/routing-map.md`](docs/routing-map.md): each skill routes off the memo's weakest section rather than offering a flat menu.
+All eight worker skills plus the `camp` router are built. The follow-on skills are scaffolded with full workflows but have not yet been exercised on real policy issues — treat them as built but unproven. Routing between skills is defined in [`docs/routing-map.md`](docs/routing-map.md): each skill routes off the memo's weakest section rather than offering a flat menu. Every skill also runs through a shared guided-UI layer — a loop map, host-adaptive menus, and an agency guardrail that treats "you pick" or "just draft" as a real answer rather than asking more. See [`docs/interaction-protocol.md`](docs/interaction-protocol.md).
 
 ### `diagnose`
 
@@ -138,6 +138,7 @@ What exists now:
 - A `camp` router ([`skills/camp`](skills/camp/SKILL.md)) that triages any situation to the right skill
 - Eight worker skills: `diagnose`, `foresight`, `recode`, `verify`, `translate`, `test`, `learn`, `build`
 - Conditional routing between skills ([`docs/routing-map.md`](docs/routing-map.md))
+- A guided-UI interaction layer across all skills ([`docs/interaction-protocol.md`](docs/interaction-protocol.md))
 - The What/How/Why spine from *Modern Power* woven through the skills ([`knowledge/lenses.md`](knowledge/lenses.md))
 - Memo template and diagnostic references
 - Deep-research handoff prompt
@@ -163,6 +164,7 @@ What comes next:
 - [`skills/abundance-learn/SKILL.md`](skills/abundance-learn/SKILL.md): pattern-library entry
 - [`skills/abundance-build/SKILL.md`](skills/abundance-build/SKILL.md): circulation and first real-world test
 - [`docs/routing-map.md`](docs/routing-map.md): how skills recommend each other
+- [`docs/interaction-protocol.md`](docs/interaction-protocol.md): how skills present a guided UI in-chat
 - [`skills/abundance-diagnosis/references/memo-template.md`](skills/abundance-diagnosis/references/memo-template.md): Abundance Systems Memo template
 - [`skills/abundance-diagnosis/references/diagnostic-lenses.md`](skills/abundance-diagnosis/references/diagnostic-lenses.md): core diagnostic lenses
 - [`skills/abundance-diagnosis/references/deep-research-handoff.md`](skills/abundance-diagnosis/references/deep-research-handoff.md): prompt pattern for external deep research
