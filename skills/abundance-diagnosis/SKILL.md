@@ -24,6 +24,15 @@ In the **What / How / Why** spine (see `knowledge/lenses.md`), this rule is the 
 
 Guide an Abundance Network colleague from a raw public problem or policy idea to an Abundance Systems Memo. Preserve the GStack operating loop: guided diagnosis, durable artifact, specialized review, real-world test, feedback, and accumulated learning. Change the destination from commercial product to civic action plan.
 
+## Interaction
+
+Run this skill per `docs/interaction-protocol.md`. In short:
+
+- On entry, print a one-line header (skill name + purpose) and the loop map with this skill bracketed.
+- At genuine forks (mode, approach, routing), offer a menu with an open "Something else — let me explain" option when an `AskUserQuestion` variant is available; otherwise a numbered list. Always honor free-text.
+- Treat deferral ("you pick", "just draft", "let it sit", silence) as a real answer: proceed, record the assumption, never re-ask. Ask at most two or three questions in a row before drafting something to react to.
+- At a phase boundary, recommend the next skill with a one-line reason, then wait. Never auto-advance.
+
 ## Required Output
 
 Produce an `Abundance Systems Memo`, either as a provisional pass-one hypothesis memo or an evidence-backed pass-two revision.
