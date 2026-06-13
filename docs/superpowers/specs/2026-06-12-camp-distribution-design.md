@@ -98,12 +98,29 @@ Rewrite `INSTALLATION.md` and `docs/using-camp-with-agents.md` to:
 - Remove the hardcoded personal OneDrive paths from `using-camp-with-agents.md`.
 - Update the smoke test to invoke a current skill name.
 
-## Out of Scope (YAGNI)
+## Part 6 — Verification
+
+Because the renames touch many files, verification is a first-class deliverable, not a manual afterthought.
+
+Add a committed **dev-only** verification script, `scripts/verify-camp.sh` (Bash). It is repo tooling for authors and CI; it is never installed into an agent and is not part of any skill, so the "skills ship no executable scripts" stance holds. It checks:
+
+1. **Reference resolution.** For every `SKILL.md` and every file under `docs/` and `knowledge/`, extract referenced repo paths (backtick paths and Markdown links that start with `skills/`, `docs/`, `knowledge/`, `references/`, `assets/`, or `${CLAUDE_PLUGIN_ROOT}/`) and assert each resolves on disk. Resolution rules:
+   - `docs/...`, `knowledge/...`, `skills/...`, `assets/...` → relative to repo root.
+   - `references/...` → relative to the containing skill's folder.
+   - `${CLAUDE_PLUGIN_ROOT}/...` → map the prefix to repo root, then resolve.
+2. **No stale slugs.** Grep the whole repo (excluding `docs/superpowers/` history and `.git/`) for the old folder slugs — `abundance-diagnosis`, `abundance-foresight`, `abundance-recode`, `abundance-verify`, `abundance-translate`, `abundance-test`, `abundance-learn`, `abundance-build`, and the path `skills/camp` — and assert zero matches.
+3. **Frontmatter/folder match.** For each `skills/<dir>/SKILL.md`, assert the YAML `name:` equals `<dir>`.
+4. **Skill count.** Assert exactly nine skill folders, each with a `SKILL.md`.
+5. **Plugin validation (best-effort).** If the `claude` CLI is on PATH, run `claude plugin validate` and a `claude --plugin-dir . --help`-style load check; report but do not hard-fail if the CLI is absent.
+
+The script exits non-zero on any failure and prints the offending file/line, so it is usable as a pre-commit or CI gate.
+
+The implementation plan ends by running `scripts/verify-camp.sh` and requiring clean output, then a manual smoke test: load the plugin, confirm `/camp:start` prints the banner and loop map, and run one skill end to end.
 
 - No runtime terminal color — explained as a hard limitation; brand color lives in the README and any future standalone UI (Path B).
 - No marketplace submission now (documented as a later option).
 - No runtime banner generator (`tui-banner` or `figlet`); the banner ships as static text.
-- No build/codegen step beyond authoring; the shipped repo stays markdown + one JSON manifest + one SVG.
+- No build/codegen step beyond authoring; the installable surface stays markdown + one JSON manifest + one SVG. The repo also carries `scripts/verify-camp.sh`, but it is dev/CI-only and is never installed into an agent.
 
 ## Success Criteria
 
@@ -112,6 +129,7 @@ Rewrite `INSTALLATION.md` and `docs/using-camp-with-agents.md` to:
 - Copying any single skill folder into a flat skills directory leaves no broken hard references.
 - The README shows the white-on-purple CAMP banner on GitHub.
 - No install doc references a personal machine path or a skill that no longer exists.
+- `scripts/verify-camp.sh` exits clean: all references resolve, no stale folder slugs remain, every frontmatter `name:` matches its folder, and nine skills are present.
 
 ## Risks
 
