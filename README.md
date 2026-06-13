@@ -1,3 +1,5 @@
+![CAMP](assets/camp-banner.svg)
+
 # CAMP
 
 **Capacity, Abundance, Mechanisms, Policy.**
