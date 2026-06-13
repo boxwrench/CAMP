@@ -1,156 +1,22 @@
 # Using CAMP With Agent Tools
 
-CAMP is written in the portable `SKILL.md` skill format. The same core folder can be used across agent tools that support Agent Skills, but each tool expects skills in a different place.
+CAMP is a nine-skill stack in the portable `SKILL.md` format, plus shared docs under `docs/` and `knowledge/`. Install the whole stack together.
 
-Current source skill:
+## Claude Code / Cowork
 
-```text
-skills/abundance-diagnosis/
-  SKILL.md
-  agents/openai.yaml
-  references/
-```
+CAMP is a Claude Code plugin. Load it with `claude --plugin-dir ./CAMP`, or place it under `~/.claude/skills/camp/` to auto-load. Skills are namespaced: `/camp:start`, `/camp:diagnose`, `/camp:verify`, and so on. Cowork installs skills through the Claude app's Skills UI; upload the repo and keep the folder structure.
 
-Canonical CAMP name:
+## Codex and Antigravity
 
-```text
-diagnose
-```
+These hosts read skills as folders but do not support plugins. Copy the whole repo tree so `skills/`, `docs/`, and `knowledge/` stay together, and point the host's skills directory at `skills/`. Skill names are plain (`diagnose`, `verify`, …).
 
-Until the folder is renamed, install it by copying `skills/abundance-diagnosis` into the target tool's skill folder as `diagnose`.
+- Codex: personal skills under `~/.codex/skills`.
+- Antigravity: project skills under `.agents/skills` (older projects: `.agent/skills`).
 
-## Codex
+## Portable fallback
 
-On this machine, Codex skills live under:
+If a host does not support skills, paste a skill's `SKILL.md` and attach the reference files it names. You lose auto-triggering and progressive loading, but the workflow still runs.
 
-```text
-C:\Users\wests\.codex\skills
-```
+## Safety
 
-Recommended install:
-
-```powershell
-$src = "C:\Users\wests\OneDrive\Desktop\abundance-network-gstack\skills\abundance-diagnosis"
-$dst = "C:\Users\wests\.codex\skills\diagnose"
-Copy-Item -Recurse -Force $src $dst
-```
-
-Then start a new Codex thread and ask:
-
-```text
-Use diagnose on this policy issue: ...
-```
-
-Codex may also auto-trigger the skill when the task matches the `description` in `SKILL.md`.
-
-## Claude Code
-
-Claude Code supports personal and project skills.
-
-Personal install:
-
-```text
-~/.claude/skills/diagnose/SKILL.md
-```
-
-Windows equivalent:
-
-```text
-C:\Users\wests\.claude\skills\diagnose\SKILL.md
-```
-
-Project install:
-
-```text
-.claude/skills/diagnose/SKILL.md
-```
-
-Recommended project install from this repo:
-
-```powershell
-$src = "C:\Users\wests\OneDrive\Desktop\abundance-network-gstack\skills\abundance-diagnosis"
-$dst = "C:\path\to\your\project\.claude\skills\diagnose"
-Copy-Item -Recurse -Force $src $dst
-```
-
-Invoke it with:
-
-```text
-Use diagnose on this policy issue: ...
-```
-
-or, if Claude exposes it as a slash command:
-
-```text
-/diagnose
-```
-
-## Claude Cowork
-
-Claude Cowork can use Claude Skills, but the install path and sharing model may differ from Claude Code. Use the Claude app's Skills or Cowork customization UI when available.
-
-Practical approach:
-
-1. Package or upload the `skills/abundance-diagnosis` folder as a skill.
-2. Name it `diagnose`.
-3. Include the `references/` folder.
-4. Start a Cowork task with:
-
-```text
-Use the diagnose skill to create a pass-one Abundance Systems Memo for this issue: ...
-```
-
-Cowork is especially useful for pass-two work when connectors or files are available: PDFs, policy docs, reports, notes, emails, and shared drives.
-
-## Google Antigravity
-
-Antigravity supports skills as folders containing `SKILL.md`.
-
-Recommended project install:
-
-```text
-.agents/skills/diagnose/SKILL.md
-```
-
-Older projects may also support:
-
-```text
-.agent/skills/diagnose/SKILL.md
-```
-
-Install from this repo:
-
-```powershell
-$src = "C:\Users\wests\OneDrive\Desktop\abundance-network-gstack\skills\abundance-diagnosis"
-$dst = "C:\path\to\your\project\.agents\skills\diagnose"
-Copy-Item -Recurse -Force $src $dst
-```
-
-Then ask Antigravity:
-
-```text
-Use diagnose to analyze this policy issue before recommending action: ...
-```
-
-## Portable Fallback
-
-If a tool does not support skills natively, paste the contents of:
-
-```text
-skills/abundance-diagnosis/SKILL.md
-```
-
-and attach or paste the relevant reference files:
-
-```text
-references/memo-template.md
-references/diagnostic-lenses.md
-references/deep-research-handoff.md
-```
-
-This loses auto-triggering and progressive loading, but the workflow still works.
-
-## Safety Note
-
-Treat third-party skills as executable instructions. CAMP currently contains only Markdown instructions and references, not scripts. If scripts are added later, review them before installing into an agent with filesystem or network access.
-
+Installed skills contain only Markdown instructions and references. The repo's `scripts/verify-camp.sh` is dev/CI tooling, never installed into an agent.

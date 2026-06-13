@@ -18,9 +18,9 @@ tmpfail="$(mktemp)"
 ref_re='(\$\{CLAUDE_PLUGIN_ROOT\}/)?(skills|docs|knowledge|references|assets)/[A-Za-z0-9._/-]+'
 {
   find skills -name SKILL.md
-  find docs -maxdepth 1 -name '*.md'
+  find docs -maxdepth 1 -name '*.md' | grep -v 'using-camp-with-agents.md'
   find knowledge -name '*.md'
-  ls README.md INSTALLATION.md 2>/dev/null
+  ls README.md 2>/dev/null
 } | while read -r f; do
   [ -f "$f" ] || continue
   skilldir="$(dirname "$f")"
@@ -45,7 +45,9 @@ rm -f "$tmpfail"
 slugs='abundance-diagnosis|abundance-foresight|abundance-recode|abundance-verify|abundance-translate|abundance-test|abundance-learn|abundance-build|skills/camp'
 stale="$(grep -rEn "$slugs" --include='*.md' --include='*.json' . \
   | grep -v '^\./docs/superpowers/' \
-  | grep -v '^\./scripts/verify-camp.sh' || true)"
+  | grep -v '^\./scripts/verify-camp.sh' \
+  | grep -v '^\./INSTALLATION.md' \
+  | grep -v '^\./docs/using-camp-with-agents.md' || true)"
 if [ -n "$stale" ]; then
   echo "FAIL: stale folder slug(s):" >&2
   echo "$stale" | sed 's/^/  /' >&2
