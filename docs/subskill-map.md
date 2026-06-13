@@ -61,7 +61,7 @@ Status:
 
 ## Follow-On Review Skills
 
-### `strategic-foresight-review`
+### `foresight`
 
 GStack rough equivalent: `plan-ceo-review`
 
@@ -96,7 +96,7 @@ Status:
 
 - Sketched, not resolved.
 
-### `implementation-mechanics-review`
+### `recode`
 
 GStack rough equivalent: `plan-eng-review`
 
@@ -133,7 +133,7 @@ Status:
 
 - Sketched, not resolved.
 
-### `public-translation-review`
+### `translate`
 
 GStack rough equivalent: `plan-design-review`
 
@@ -167,7 +167,7 @@ Status:
 
 - Sketched, not resolved.
 
-### `evidence-review`
+### `verify`
 
 GStack rough equivalent: `review`
 
@@ -203,7 +203,7 @@ Status:
 
 - Sketched, not resolved.
 
-### `feedback-loop-check`
+### `test`
 
 GStack rough equivalent: `qa`
 
@@ -238,7 +238,7 @@ Status:
 
 - Sketched, not resolved.
 
-### `publish-circulate-test`
+### `build`
 
 GStack rough equivalent: `ship`
 
@@ -273,7 +273,7 @@ Status:
 
 - Sketched, not resolved.
 
-### `pattern-library-entry`
+### `learn`
 
 GStack rough equivalent: learnings / context-save, but more substantive.
 

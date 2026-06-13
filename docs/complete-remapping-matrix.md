@@ -29,7 +29,7 @@ The goal is conservative adaptation. Preserve GStack's operating loop unless the
 | `gstack-cso` | `institutional-risk-review` | Custom later | Security review maps loosely to institutional risk: legal exposure, capture, public trust, process abuse. |
 | `gstack-design-consultation` | `public-message-consultation` | Custom later | Design consultation becomes message/frame consultation for public-facing advocacy assets. |
 | `gstack-design-html` | `memo-html` | Reuse infra | HTML generation can render memos or public briefs. Styling/content rules change. |
-| `gstack-design-review` | `public-translation-review` | Custom v1 | Review public translation table for audience clarity, evidence discipline, and overclaim risk. |
+| `gstack-design-review` | `translate` | Custom v1 | Review public translation table for audience clarity, evidence discipline, and overclaim risk. |
 | `gstack-design-shotgun` | `message-variants` | Custom later | Generate multiple public message variants by audience or frame. Useful after diagnosis is stable. |
 | `gstack-devex-review` | `coalition-experience-review` | Custom later | Developer experience becomes coalition/user experience: can allies understand and act on the memo? |
 | `gstack-document-generate` | `brief-generate` | Reuse infra | Document generation can produce memos, one-pagers, field assignments, and briefings. |
@@ -45,25 +45,25 @@ The goal is conservative adaptation. Preserve GStack's operating loop unless the
 | `gstack-ios-sync` | none | Out of scope | Only relevant if this becomes a mobile app project. |
 | `gstack-land-and-deploy` | `circulate-and-follow-up` | Custom later | Landing/deploy maps to circulation plus follow-up, not production deploy. |
 | `gstack-landing-report` | `circulation-report` | Custom later | Track what memos are circulated, to whom, status, feedback, and next action. |
-| `gstack-learn` | `pattern-library-entry` | Custom v1 | Central to cross-domain learning. Capture reusable mechanisms, cases, anti-patterns, and transfer notes. |
+| `gstack-learn` | `learn` | Custom v1 | Central to cross-domain learning. Capture reusable mechanisms, cases, anti-patterns, and transfer notes. |
 | `gstack-make-pdf` | `memo-pdf` | Reuse infra | PDF rendering can be reused for final memos and public briefs. |
 | `gstack-office-hours` | `diagnose` | Custom v1 | Front-door guided session. Already scaffolded. |
 | `gstack-open-gstack-browser` | `open-source-browser` | Reuse infra | Useful for live evidence gathering and source review. |
 | `gstack-pair-agent` | `coalition-pair-agent` | Reuse infra | Useful if pairing another reviewer or domain expert agent. Not needed for v1. |
-| `gstack-plan-ceo-review` | `strategic-foresight-review` | Custom v1 | Stress-test ambition, system reaction, second-order effects, and time horizons. |
-| `gstack-plan-design-review` | `public-translation-review` | Custom v1 | Review public claims, audience fit, and evidence-to-message traceability. |
+| `gstack-plan-ceo-review` | `foresight` | Custom v1 | Stress-test ambition, system reaction, second-order effects, and time horizons. |
+| `gstack-plan-design-review` | `translate` | Custom v1 | Review public claims, audience fit, and evidence-to-message traceability. |
 | `gstack-plan-devex-review` | `coalition-experience-review` | Custom later | Check whether the memo is usable by organizers, officials, staffers, and coalition partners. |
-| `gstack-plan-eng-review` | `implementation-mechanics-review` | Custom v1 | Review authority, operations, procurement, staffing, budgets, constraints, and feedback paths. |
+| `gstack-plan-eng-review` | `recode` | Custom v1 | Review authority, operations, procurement, staffing, budgets, constraints, and feedback paths. |
 | `gstack-plan-tune` | `diagnostic-tune` | Custom later | Tune question sensitivity and default flows after real usage. |
-| `gstack-qa` | `feedback-loop-check` | Custom v1 | QA maps to testing whether action has observable feedback and can detect drift. |
+| `gstack-qa` | `test` | Custom v1 | QA maps to testing whether action has observable feedback and can detect drift. |
 | `gstack-qa-only` | `feedback-loop-report` | Custom later | Report-only version of feedback-loop check. Useful after v1. |
 | `gstack-retro` | `coalition-retro` | Custom later | Periodic review of memos, actions, feedback, and cross-domain learning. |
-| `gstack-review` | `evidence-review` | Custom v1 | Review claims, causal weights, source support, confidence, and overclaim risk. |
+| `gstack-review` | `verify` | Custom v1 | Review claims, causal weights, source support, confidence, and overclaim risk. |
 | `gstack-scrape` | `source-scrape` | Reuse infra | Use for agency docs, meeting minutes, legislation, procurement, and case material. |
 | `gstack-setup-browser-cookies` | `setup-source-access` | Reuse infra | Useful for accessing public portals or documents requiring browser state. |
 | `gstack-setup-deploy` | `setup-circulation` | Defer | Only needed if circulation becomes systematic with external publishing channels. |
 | `gstack-setup-gbrain` | `setup-abundance-brain` | Defer | Useful later for shared memory and cross-machine artifacts. Not v1. |
-| `gstack-ship` | `publish-circulate-test` | Custom later | Convert approved memo into circulation plan, test, follow-up, and learning loop. |
+| `gstack-ship` | `build` | Custom later | Convert approved memo into circulation plan, test, follow-up, and learning loop. |
 | `gstack-skillify` | `codify-source-flow` | Reuse infra | Codify recurring source-gathering flows for specific agencies or portals. |
 | `gstack-spec` | `abundance-brief` | Custom later | Could turn vague civic intent into a backlog-ready memo request or evidence plan. |
 | `gstack-sync-gbrain` | `sync-abundance-brain` | Defer | Shared memory sync later. |
@@ -96,7 +96,7 @@ diagnose
   -> learn
 ```
 
-Use `publish-circulate-test` only after the memo is good enough to show someone.
+Use `build` only after the memo is good enough to show someone.
 
 At the evidence-ladder stage, the process may branch to a deep-research handoff:
 

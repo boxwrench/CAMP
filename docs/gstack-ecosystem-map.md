@@ -88,9 +88,9 @@ Abundance equivalents:
 - `diagnose`
 - `abundance-spec` or `abundance-brief`
 - `abundance-autoplan`
-- `strategic-foresight-review`
-- `implementation-mechanics-review`
-- `public-translation-review`
+- `foresight`
+- `recode`
+- `translate`
 - `coalition-experience-review`
 - `diagnostic-tune`
 
@@ -113,10 +113,10 @@ GStack:
 Abundance equivalents:
 
 - `systems-investigate`
-- `evidence-review`
+- `verify`
 - `institutional-risk-review`
 - `memo-health`
-- `feedback-loop-check`
+- `test`
 - `feedback-loop-report`
 - `coalition-experience-review`
 
@@ -140,7 +140,7 @@ Abundance equivalents:
 
 - `public-message-consultation`
 - `message-variants`
-- `public-translation-review`
+- `translate`
 - `memo-html`
 - `memo-pdf`
 - `brief-generate`
@@ -164,7 +164,7 @@ GStack:
 
 Abundance equivalents:
 
-- `publish-circulate-test`
+- `build`
 - `circulate-and-follow-up`
 - `setup-circulation`
 - `circulation-report`
@@ -189,7 +189,7 @@ GStack:
 
 Abundance equivalents:
 
-- `pattern-library-entry`
+- `learn`
 - `memo-context-save`
 - `memo-context-restore`
 - `coalition-retro`
@@ -280,17 +280,17 @@ Probably not relevant unless the Abundance project later includes a mobile app.
 High priority:
 
 - `diagnose`
-- `strategic-foresight-review`
-- `implementation-mechanics-review`
-- `public-translation-review`
-- `evidence-review`
-- `feedback-loop-check`
-- `pattern-library-entry`
+- `foresight`
+- `recode`
+- `translate`
+- `verify`
+- `test`
+- `learn`
 
 Medium priority:
 
 - `systems-investigate`
-- `publish-circulate-test`
+- `build`
 - `coalition-retro`
 - `message-variants`
 - `memo-pdf`

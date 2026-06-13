@@ -24,13 +24,13 @@ unclear civic or policy idea -> guided diagnosis -> Abundance Systems Memo -> sp
 
 | GStack | Abundance |
 | --- | --- |
-| `plan-ceo-review` | `strategic-foresight-review` |
-| `plan-eng-review` | `implementation-mechanics-review` |
-| `plan-design-review` | `public-translation-review` |
-| `review` | `evidence-review` |
-| `qa` | `feedback-loop-check` |
-| `ship` | `publish-circulate-test` |
-| learnings/context | `pattern-library-entry` |
+| `plan-ceo-review` | `foresight` |
+| `plan-eng-review` | `recode` |
+| `plan-design-review` | `translate` |
+| `review` | `verify` |
+| `qa` | `test` |
+| `ship` | `build` |
+| learnings/context | `learn` |
 
 ## Adaptation Rule
 

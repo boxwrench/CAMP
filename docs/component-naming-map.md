@@ -75,12 +75,12 @@ Inside a dedicated Abundance stack, use:
 
 Possible follow-on skills or modes:
 
-- `strategic-foresight-review`: stress-test time horizons, second-order effects, and system reactions.
-- `implementation-mechanics-review`: test owners, authority, procurement, process, staffing, and operational details.
-- `public-translation-review`: turn internal findings into audience-specific claims without overclaiming.
-- `evidence-review`: check whether causal weights are supported by live diagnostic material.
-- `feedback-loop-check`: verify that the action plan can detect drift and hollow progress.
-- `pattern-library-entry`: capture reusable lessons from wins, failures, and cross-domain cases.
+- `foresight`: stress-test time horizons, second-order effects, and system reactions.
+- `recode`: test owners, authority, procurement, process, staffing, and operational details.
+- `translate`: turn internal findings into audience-specific claims without overclaiming.
+- `verify`: check whether causal weights are supported by live diagnostic material.
+- `test`: verify that the action plan can detect drift and hollow progress.
+- `learn`: capture reusable lessons from wins, failures, and cross-domain cases.
 
 ## Artifact Names
 

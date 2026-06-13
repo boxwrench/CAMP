@@ -103,12 +103,12 @@ The name should emphasize diagnosis because the core rule is: do not advocate be
     - Log reusable mechanisms or cases into the knowledge library when appropriate.
 
 12. Route Follow-On Work
-    - `strategic-foresight-review`
-    - `implementation-mechanics-review`
-    - `public-translation-review`
-    - `evidence-review`
-    - `feedback-loop-check`
-    - `pattern-library-entry`
+    - `foresight`
+    - `recode`
+    - `translate`
+    - `verify`
+    - `test`
+    - `learn`
 
 ## Parallel To GStack
 
