@@ -22,6 +22,15 @@ The user should never need to memorize skill names. That is this skill's whole j
 
 Route, do not redo. Read what already exists, identify the single best next move, and hand off. Do not run a full diagnosis from inside the router — dispatch the skill that does.
 
+## Interaction
+
+Run this router per `docs/interaction-protocol.md`. In short:
+
+- On entry, print the loop map with no skill bracketed (you are choosing where to start).
+- Offer the route as a menu with an open "Something else — let me explain" option when an `AskUserQuestion` variant is available; otherwise a numbered list. Always honor free-text.
+- Treat deferral as a real answer: if the user is unsure, read the latest memo and recommend a starting skill rather than interrogating. Ask at most one clarifying question before routing.
+- Recommend one skill with a one-line reason and dispatch it; do not run the diagnosis yourself.
+
 ## Workflow
 
 1. **Read the loop state**
