@@ -8,6 +8,22 @@ First-class hosts: Claude Code, Claude Cowork. Supported with graceful fallback:
 
 Offer structure the user can lean on or ignore. Menus are scaffolding, not gates. The loop is a map, not rails. Recommendations wait for consent. Never pester for answers the user has not authentically given.
 
+## Startup Banner
+
+The `start` router — and only the router — prints this exact banner verbatim on entry, before the loop map. Worker skills do not print it; they keep the one-line header plus loop map. The banner is a fixed literal, never generated at runtime (no dependency on figlet or any binary).
+
+```
+ ██████╗ █████╗ ███╗   ███╗██████╗
+██╔════╝██╔══██╗████╗ ████║██╔══██╗
+██║     ███████║██╔████╔██║██████╔╝
+██║     ██╔══██║██║╚██╔╝██║██╔═══╝
+╚██████╗██║  ██║██║ ╚═╝ ██║██║
+ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝
+   Capacity · Abundance · Mechanisms · Policy
+```
+
+A skill emits only text; it cannot set terminal colors. The banner is monochrome. Brand color lives in the README hero banner.
+
 ## 1. Loop Map
 
 At the start of a skill, and again when you offer routing, print the loop map so the user always knows where they are:
