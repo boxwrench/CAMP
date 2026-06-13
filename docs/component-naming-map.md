@@ -14,31 +14,23 @@ Prefer short names. Put intellectual lineage in the skill descriptions and knowl
 
 ## Working Skill Name
 
-Current placeholder:
+Canonical skill name (resolved):
 
-- `abundance-diagnosis`
+- `diagnose`
 
-Possible alternatives:
+The artifact is the `Abundance Systems Memo` / `systems-memo`.
 
-- `abundance-systems-memo`
-- `abundance-diagnosis`
-- `abundance-action-memo`
-- `systems-action-memo`
-- `abundance-strategy`
-- `abundance-network-memo`
+When installed as a Claude Code plugin, skills are namespaced under `camp`:
 
-Current recommendation: use `diagnose` for the skill and `Abundance Systems Memo` / `systems-memo` for the artifact.
-
-If packaged in a shared skill namespace, use namespaced forms:
-
-- `abundance-diagnose`
-- `abundance-foresight`
-- `abundance-recode`
-- `abundance-translate`
-- `abundance-verify`
-- `abundance-test`
-- `abundance-learn`
-- `abundance-build`
+- `camp:diagnose`
+- `camp:foresight`
+- `camp:recode`
+- `camp:translate`
+- `camp:verify`
+- `camp:test`
+- `camp:learn`
+- `camp:build`
+- `camp:start`
 
 Inside a dedicated Abundance stack, use:
 

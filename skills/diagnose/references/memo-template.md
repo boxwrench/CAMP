@@ -1,6 +1,6 @@
 # Abundance Systems Memo Template
 
-Use this template when drafting or saving the output of `abundance-diagnosis`.
+Use this template when drafting or saving the output of `diagnose`.
 
 ```markdown
 # Abundance Systems Memo: {title}

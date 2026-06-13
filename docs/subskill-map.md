@@ -4,7 +4,7 @@ This maps the broader GStack skill ecosystem to the proposed CAMP skill family.
 
 The front-door skill is mostly resolved:
 
-- GStack `office-hours` -> Abundance `abundance-diagnosis`
+- GStack `office-hours` -> Abundance `diagnose`
 - GStack `design doc` -> Abundance `Abundance Systems Memo`
 
 The follow-on subskills below are first-pass definitions. They need deeper logic design before implementation.
@@ -18,20 +18,20 @@ Adaptation principle: preserve GStack's logic wherever possible. The main change
 ## Skill Family Overview
 
 ```text
-abundance-diagnosis
+diagnose
   -> Abundance Systems Memo
-  -> strategic-foresight-review
-  -> implementation-mechanics-review
-  -> public-translation-review
-  -> evidence-review
-  -> feedback-loop-check
-  -> publish-circulate-test
-  -> pattern-library-entry
+  -> foresight
+  -> recode
+  -> translate
+  -> verify
+  -> test
+  -> build
+  -> learn
 ```
 
 ## Front Door
 
-### `abundance-diagnosis`
+### `diagnose`
 
 GStack equivalent: `office-hours`
 
@@ -310,7 +310,7 @@ Status:
 
 ## What Is Resolved
 
-- `abundance-diagnosis` is the office-hours equivalent.
+- `diagnose` is the office-hours equivalent.
 - The artifact is the Abundance Systems Memo.
 - The logic starts with diagnosis, not advocacy.
 - The memo uses a two-pass workflow.
@@ -325,4 +325,4 @@ Status:
 - Where artifacts are stored.
 - How knowledge library entries are indexed and retrieved.
 - How live diagnostic sources are cited.
-- Whether public circulation should integrate with email/docs/slides later.
+- Whether public circulation should integrate with email, documents, or slide decks later.

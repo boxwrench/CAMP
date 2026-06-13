@@ -4,7 +4,7 @@ This maps the existing GStack office-hours logic to the proposed CAMP skill fami
 
 ## Naming Decision
 
-`abundance-diagnosis` is the office-hours equivalent.
+`diagnose` is the office-hours equivalent.
 
 It is the front-door guided session. A user brings a concrete public problem or policy idea, and the skill turns it into an Abundance Systems Memo.
 
@@ -14,7 +14,7 @@ The name should emphasize diagnosis because the core rule is: do not advocate be
 
 | GStack Role | Abundance Network Role |
 | --- | --- |
-| `office-hours` | `abundance-diagnosis` |
+| `office-hours` | `diagnose` |
 | Front-door product/founder diagnostic | Front-door public systems diagnostic |
 | Produces a design doc | Produces an Abundance Systems Memo |
 | Routes to CEO/eng/design reviews | Routes to foresight/implementation/public-translation/evidence reviews |
@@ -38,7 +38,7 @@ The name should emphasize diagnosis because the core rule is: do not advocate be
 | Founder Resources | Recommend YC/startup resources | Knowledge References | Recommend canonical lenses and case studies relevant to the causal weights |
 | Next-Skill Recommendations | CEO/eng/design review | Follow-On Workflows | Strategic foresight, implementation mechanics, public translation, evidence review, feedback-loop check |
 
-## Proposed `abundance-diagnosis` Flow
+## Proposed `diagnose` Flow
 
 1. Preamble
    - Load knowledge library.
@@ -120,15 +120,15 @@ office-hours
   -> plan-ceo-review / plan-eng-review / plan-design-review
   -> ship / QA / review
 
-abundance-diagnosis
+diagnose
   -> Abundance Systems Memo
-  -> strategic-foresight-review / implementation-mechanics-review / public-translation-review
-  -> publish-circulate-test / feedback-loop-check / evidence-review
+  -> foresight / recode / translate
+  -> build / test / verify
 ```
 
 ## Current Recommendation
 
-Use `abundance-diagnosis` as the front-door skill name.
+Use `diagnose` as the front-door skill name.
 
 Use `Abundance Systems Memo` as the artifact name.
 

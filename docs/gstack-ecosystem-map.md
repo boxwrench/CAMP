@@ -85,7 +85,7 @@ GStack:
 
 Abundance equivalents:
 
-- `abundance-diagnosis`
+- `diagnose`
 - `abundance-spec` or `abundance-brief`
 - `abundance-autoplan`
 - `strategic-foresight-review`
@@ -279,7 +279,7 @@ Probably not relevant unless the Abundance project later includes a mobile app.
 
 High priority:
 
-- `abundance-diagnosis`
+- `diagnose`
 - `strategic-foresight-review`
 - `implementation-mechanics-review`
 - `public-translation-review`

@@ -34,16 +34,17 @@ CAMP should feel like a working base for civic diagnosis: people bring a problem
 
 ## Namespaced Form
 
-If these become standalone skills in a shared skill folder, use namespaced names:
+When installed as a Claude Code plugin, skills are namespaced under `camp`:
 
-- `abundance-diagnose`
-- `abundance-foresight`
-- `abundance-recode`
-- `abundance-translate`
-- `abundance-verify`
-- `abundance-test`
-- `abundance-learn`
-- `abundance-build`
+- `camp:diagnose`
+- `camp:foresight`
+- `camp:recode`
+- `camp:translate`
+- `camp:verify`
+- `camp:test`
+- `camp:learn`
+- `camp:build`
+- `camp:start`
 
 ## Plain Command Form
 
@@ -84,4 +85,4 @@ learn
 build
 ```
 
-Keep `abundance-*` names available for distribution contexts where short names would collide with other skills.
+When installed via the plugin, use `/camp:` prefix to avoid collisions with other skills.

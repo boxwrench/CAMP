@@ -96,7 +96,7 @@ Prepare the memo or public translation for circulation, action, follow-up, and r
 CAMP is currently installed by copying the skill folder into your agent's skills directory as `diagnose`.
 
 ```text
-skills/abundance-diagnosis -> diagnose
+skills/diagnose -> /camp:diagnose (plugin) or diagnose (manual)
 ```
 
 Codex, Claude Code, Claude Cowork, and Google Antigravity use slightly different install locations. See [`INSTALLATION.md`](INSTALLATION.md) for exact commands and a smoke test.
@@ -135,7 +135,7 @@ This repository is early.
 
 What exists now:
 
-- A `camp` router ([`skills/camp`](skills/camp/SKILL.md)) that triages any situation to the right skill
+- A `camp` router ([`skills/start`](skills/start/SKILL.md)) that triages any situation to the right skill
 - Eight worker skills: `diagnose`, `foresight`, `recode`, `verify`, `translate`, `test`, `learn`, `build`
 - Conditional routing between skills ([`docs/routing-map.md`](docs/routing-map.md))
 - A guided-UI interaction layer across all skills ([`docs/interaction-protocol.md`](docs/interaction-protocol.md))
@@ -154,20 +154,20 @@ What comes next:
 ## Project Map
 
 - [`INSTALLATION.md`](INSTALLATION.md): installation guide for Codex, Claude Code, Claude Cowork, Antigravity, and manual use
-- [`skills/camp/SKILL.md`](skills/camp/SKILL.md): router — triages any situation to the right skill
-- [`skills/abundance-diagnosis/SKILL.md`](skills/abundance-diagnosis/SKILL.md): front-door diagnosis skill
-- [`skills/abundance-foresight/SKILL.md`](skills/abundance-foresight/SKILL.md): strategic foresight review
-- [`skills/abundance-recode/SKILL.md`](skills/abundance-recode/SKILL.md): implementation mechanics review
-- [`skills/abundance-verify/SKILL.md`](skills/abundance-verify/SKILL.md): evidence review
-- [`skills/abundance-translate/SKILL.md`](skills/abundance-translate/SKILL.md): public translation review
-- [`skills/abundance-test/SKILL.md`](skills/abundance-test/SKILL.md): feedback-loop check
-- [`skills/abundance-learn/SKILL.md`](skills/abundance-learn/SKILL.md): pattern-library entry
-- [`skills/abundance-build/SKILL.md`](skills/abundance-build/SKILL.md): circulation and first real-world test
+- [`skills/start/SKILL.md`](skills/start/SKILL.md): router — triages any situation to the right skill
+- [`skills/diagnose/SKILL.md`](skills/diagnose/SKILL.md): front-door diagnosis skill
+- [`skills/foresight/SKILL.md`](skills/foresight/SKILL.md): strategic foresight review
+- [`skills/recode/SKILL.md`](skills/recode/SKILL.md): implementation mechanics review
+- [`skills/verify/SKILL.md`](skills/verify/SKILL.md): evidence review
+- [`skills/translate/SKILL.md`](skills/translate/SKILL.md): public translation review
+- [`skills/test/SKILL.md`](skills/test/SKILL.md): feedback-loop check
+- [`skills/learn/SKILL.md`](skills/learn/SKILL.md): pattern-library entry
+- [`skills/build/SKILL.md`](skills/build/SKILL.md): circulation and first real-world test
 - [`docs/routing-map.md`](docs/routing-map.md): how skills recommend each other
 - [`docs/interaction-protocol.md`](docs/interaction-protocol.md): how skills present a guided UI in-chat
-- [`skills/abundance-diagnosis/references/memo-template.md`](skills/abundance-diagnosis/references/memo-template.md): Abundance Systems Memo template
-- [`skills/abundance-diagnosis/references/diagnostic-lenses.md`](skills/abundance-diagnosis/references/diagnostic-lenses.md): core diagnostic lenses
-- [`skills/abundance-diagnosis/references/deep-research-handoff.md`](skills/abundance-diagnosis/references/deep-research-handoff.md): prompt pattern for external deep research
+- [`skills/diagnose/references/memo-template.md`](skills/diagnose/references/memo-template.md): Abundance Systems Memo template
+- [`skills/diagnose/references/diagnostic-lenses.md`](skills/diagnose/references/diagnostic-lenses.md): core diagnostic lenses
+- [`skills/diagnose/references/deep-research-handoff.md`](skills/diagnose/references/deep-research-handoff.md): prompt pattern for external deep research
 - [`docs/using-camp-with-agents.md`](docs/using-camp-with-agents.md): installation notes for Codex, Claude Code, Claude Cowork, and Antigravity
 - [`docs/naming-system.md`](docs/naming-system.md): skill naming system
 - [`docs/complete-remapping-matrix.md`](docs/complete-remapping-matrix.md): GStack-to-CAMP remapping

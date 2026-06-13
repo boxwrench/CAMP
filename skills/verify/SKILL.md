@@ -71,7 +71,7 @@ Take claims one at a time.
 
 7. **Deep-research handoff**
    - If the highest-value gaps need legal, budgetary, procurement, administrative, or historical detail buried in PDFs, minutes, audits, or litigation, generate a standalone deep-research prompt the user can run externally and bring back as pass-two material.
-   - See `skills/abundance-diagnosis/references/deep-research-handoff.md` for the prompt pattern. Do not offer it for every memo — only when deeper evidence would materially change the diagnosis.
+   - See `references/deep-research-handoff.md` for the prompt pattern. Do not offer it for every memo — only when deeper evidence would materially change the diagnosis.
 
 ## Required Output
 

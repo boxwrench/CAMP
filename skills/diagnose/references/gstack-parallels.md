@@ -16,7 +16,7 @@ unclear civic or policy idea -> guided diagnosis -> Abundance Systems Memo -> sp
 
 | GStack | Abundance |
 | --- | --- |
-| `office-hours` | `abundance-diagnosis` |
+| `office-hours` | `diagnose` |
 | design doc | Abundance Systems Memo |
 | startup/product goal | civic action and implementation goal |
 

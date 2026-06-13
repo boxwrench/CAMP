@@ -47,7 +47,7 @@ The goal is conservative adaptation. Preserve GStack's operating loop unless the
 | `gstack-landing-report` | `circulation-report` | Custom later | Track what memos are circulated, to whom, status, feedback, and next action. |
 | `gstack-learn` | `pattern-library-entry` | Custom v1 | Central to cross-domain learning. Capture reusable mechanisms, cases, anti-patterns, and transfer notes. |
 | `gstack-make-pdf` | `memo-pdf` | Reuse infra | PDF rendering can be reused for final memos and public briefs. |
-| `gstack-office-hours` | `abundance-diagnosis` | Custom v1 | Front-door guided session. Already scaffolded. |
+| `gstack-office-hours` | `diagnose` | Custom v1 | Front-door guided session. Already scaffolded. |
 | `gstack-open-gstack-browser` | `open-source-browser` | Reuse infra | Useful for live evidence gathering and source review. |
 | `gstack-pair-agent` | `coalition-pair-agent` | Reuse infra | Useful if pairing another reviewer or domain expert agent. Not needed for v1. |
 | `gstack-plan-ceo-review` | `strategic-foresight-review` | Custom v1 | Stress-test ambition, system reaction, second-order effects, and time horizons. |
@@ -112,4 +112,4 @@ evidence gap identified
 
 Do not scaffold all remapped skills before testing.
 
-For the first policy issue, use the scaffolded `abundance-diagnosis` skill and simulate the follow-on reviews from the mapping docs. Then codify only the subskills whose absence creates real friction.
+For the first policy issue, use the scaffolded `diagnose` skill and simulate the follow-on reviews from the mapping docs. Then codify only the subskills whose absence creates real friction.
