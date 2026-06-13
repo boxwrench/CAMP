@@ -1,5 +1,5 @@
 ---
-name: abundance-learn
+name: learn
 description: |
   Use when a completed memo, win, failure, mechanism, or case holds a reusable
   lesson worth capturing so other domains can learn from it. Extracts the recurring

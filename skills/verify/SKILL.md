@@ -1,5 +1,5 @@
 ---
-name: abundance-verify
+name: verify
 description: |
   Use when an Abundance Systems Memo, a causal model, or a set of public claims
   needs to be checked against actual evidence: source support, confidence

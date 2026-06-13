@@ -1,5 +1,5 @@
 ---
-name: abundance-recode
+name: recode
 description: |
   Use when an abundance idea, civic reform, policy, or Abundance Systems Memo
   needs to survive contact with real institutions: authority, procurement,

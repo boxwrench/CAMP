@@ -1,5 +1,5 @@
 ---
-name: abundance-foresight
+name: foresight
 description: |
   Use when an Abundance Systems Memo or proposed intervention needs to be
   stress-tested at the strategic level: second-order effects, time horizons, and

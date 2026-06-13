@@ -1,5 +1,5 @@
 ---
-name: camp
+name: start
 description: |
   Front door and router for the CAMP stack. Use when someone has a civic problem,
   policy idea, abundance instinct, or in-progress Abundance Systems Memo but is not

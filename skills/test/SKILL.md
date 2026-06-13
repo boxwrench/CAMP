@@ -1,5 +1,5 @@
 ---
-name: abundance-test
+name: test
 description: |
   Use when an intervention or action plan needs real feedback loops that can
   detect drift, capture, hollow progress, or failure. Checks what observable

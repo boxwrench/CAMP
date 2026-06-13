@@ -1,5 +1,5 @@
 ---
-name: abundance-translate
+name: translate
 description: |
   Use when internal diagnosis needs to become public claims without overclaiming.
   Reviews the public translation table for audience fit, clarity, persuasion, and

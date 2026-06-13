@@ -1,5 +1,5 @@
 ---
-name: abundance-diagnosis
+name: diagnose
 description: |
   Use when the user brings a concrete public problem, institutional failure,
   abundance-policy idea, civic reform proposal, implementation bottleneck, or

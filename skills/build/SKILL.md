@@ -1,5 +1,5 @@
 ---
-name: abundance-build
+name: build
 description: |
   Use when an approved Abundance Systems Memo or public translation is ready to
   reach people: define who should see it first, what you want them to do, what
