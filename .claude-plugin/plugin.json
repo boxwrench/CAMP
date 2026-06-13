@@ -1,0 +1,9 @@
+{
+  "name": "camp",
+  "description": "CAMP — Capacity, Abundance, Mechanisms, Policy. A civic-systems diagnosis skill stack: diagnose before advocating. Front door is /camp:start.",
+  "version": "0.1.0",
+  "author": { "name": "boxwrench" },
+  "homepage": "https://github.com/boxwrench/CAMP",
+  "repository": "https://github.com/boxwrench/CAMP",
+  "license": "MIT"
+}
