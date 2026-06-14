@@ -2,7 +2,6 @@
 
 Use this template when drafting or saving the output of `diagnose`.
 
-```markdown
 # Abundance Systems Memo: {title}
 
 Generated: {date}
@@ -112,5 +111,3 @@ Who owns it:
 What evidence or feedback should come back:
 
 When to revisit:
-```
-
